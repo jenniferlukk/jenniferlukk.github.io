@@ -32,7 +32,7 @@
          }
     }
     #projects {
-        @extend %posts-padding;
+        @extend %projects-padding;
       
         .project {
           width: 100%;
