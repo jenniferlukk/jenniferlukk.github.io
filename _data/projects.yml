@@ -10,10 +10,9 @@
   url: https://www.instagram.com/mcmasteru/reel/DIjofMWPeSJ/
   description: "Interview with Deena Al-Sammak, an Integrated Biomedical (iBiomed) Engineering & Health Sciences student and co-founder of Power of Play."
 
-# - title: Portfolio Website
-#   url: https://jenniferlukk.github.io
-#   image: /assets/images/portfolio.png
-#   description: "My personal Jekyll portfolio site."
+- title: McMaster Global Entrepreneurship Week Highlight Reel
+  url: https://www.instagram.com/reel/DCsHLJwvpIh/
+  description: "Showcasing the energy and innovation of McMaster Global Entrepreneurship Week through highlights, interviews, and student-led initiatives that inspire the next generation of entrepreneurs."
 
 # - title: Data Dashboard
 #   url: https://github.com/jenniferlukk/data-dashboard
