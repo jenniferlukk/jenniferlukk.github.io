@@ -1,14 +1,21 @@
-- title: Instagram Clone
-  url: https://github.com/jenniferlukk/instagram-clone
-  image: /assets/images/instagram-clone.png
-  description: "A full-stack Instagram clone built with React and Firebase."
+- title: McMaster Made at Mac Reel Series - 1
+  url: https://www.instagram.com/mcmasteru/reel/DHbuyd4OPOU/ 
+  description: "Interview with Kyle Fernandes, Mechanical Engineering student and co-founder of LockIn, highlighting his journey and innovative work."
 
-- title: Portfolio Website
-  url: https://jenniferlukk.github.io
-  image: /assets/images/portfolio.png
-  description: "My personal Jekyll portfolio site."
+- title: McMaster Made at Mac Reel Series - 2
+  url: https://www.instagram.com/mcmasteru/reel/DHv6jnzgXVi/
+  description: "Interview with Hoon Yang, an Integrated Business and Humanities student and CEO and co-founder of Firefly Spark."
 
-- title: Data Dashboard
-  url: https://github.com/jenniferlukk/data-dashboard
-  image: /assets/images/dashboard.png
-  description: "An interactive data dashboard using Python and Plotly."
+- title: McMaster Made at Mac Reel Series - 3
+  url: https://www.instagram.com/mcmasteru/reel/DIjofMWPeSJ/
+  description: "Interview with Deena Al-Sammak, an Integrated Biomedical (iBiomed) Engineering & Health Sciences student and co-founder of Power of Play."
+
+# - title: Portfolio Website
+#   url: https://jenniferlukk.github.io
+#   image: /assets/images/portfolio.png
+#   description: "My personal Jekyll portfolio site."
+
+# - title: Data Dashboard
+#   url: https://github.com/jenniferlukk/data-dashboard
+#   image: /assets/images/dashboard.png
+#   description: "An interactive data dashboard using Python and Plotly."
