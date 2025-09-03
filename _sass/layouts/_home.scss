@@ -26,79 +26,65 @@
         height: 95px;
         background-color: $theme-dark;
     }
-    #posts.col-md-8{
+    #projects.col-md-8{
         @media (max-width: 991px) {
             min-width:100%;
          }
     }
-    #posts {
+    #projects {
         @extend %posts-padding;
-        .post{
-            width: 100%;
-            overflow: hidden;
-            border-bottom: 1px solid rgba(0,0,0,0.1);
-            padding: 15px 0px;
-            .post-wrap{
-                margin : 25px;
-                margin-left : 45px;
-                .text-warp {
-                    display: inline-block;
-                    .title {
-                        position: relative;
-                        line-height: 2rem;
-                    }
-                    .title::before {
-                        content: "";
-                        position: absolute;
-                        left: -25px;
-                        width: 8px;
-                        background-color: rgba(0,0,0,0.1);
-                        border-radius: 8px;
-                        height: 100%;
-                    }
-                    .excerpt{
-                        margin : 10px 0px;
-                    }
-                    .meta {
-                        color : $text-gray;
-                        font-size: 0.85rem;
-                        margin-right : 10px;
-                    }
-                    .tag-wrap{
-                        display : inline-block;
-                        .tag-sm {
-                            display: inline-block;
-                            background-color: rgba(0,0,0,0.07);
-                            margin-right: 3px;
-                            padding: 2px 9px;
-                            border-radius: 15px;
-                            color: $text-gray;
-                            font-size: 0.75rem;
-                        }
-                        .tag-sm:hover {
-                            background-color: $theme-color;
-                            color: #fff;
-                        }
-                    }
-                }
-                .img-wrap {
-                    img {
-                        width:100%;
-                    }
-                }
+      
+        .project {
+          width: 100%;
+          overflow: hidden;
+          border-bottom: 1px solid rgba(0,0,0,0.1);
+          padding: 15px 0px;
+      
+          .project-wrap {
+            margin: 25px;
+            margin-left: 45px;
+      
+            .text-wrap {
+              display: inline-block;
+      
+              .title {
+                position: relative;
+                line-height: 2rem;
+              }
+      
+              .title::before {
+                content: "";
+                position: absolute;
+                left: -25px;
+                width: 8px;
+                background-color: rgba(0,0,0,0.1);
+                border-radius: 8px;
+                height: 100%;
+              }
+      
+              .excerpt {
+                margin: 10px 0px;
+              }
             }
-        }
-        .post:hover{
-            .text-warp {
-                .title{
-                    color: $theme-color;
-                }
-                .title::before {
-                    background-color: $theme-color;
-                }
+      
+            .img-wrap img {
+              width: 100%;
             }
+          }
         }
-    }
+      
+        .project:hover {
+          .text-wrap {
+            .title {
+              color: $theme-color;
+            }
+            .title::before {
+              background-color: $theme-color;
+            }
+          }
+        }
+      }
+      
 }
 
 // Pagination 
