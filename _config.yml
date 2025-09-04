@@ -9,17 +9,10 @@ theme_settings :
 
   # Profile Settings
   profile :
-    image : assets/img/smile.png
+    image : assets/img/JenniferLuk_Headshot.png
     username : Jennifer Luk
-    description : 
-    experience :
-      - start : 2017-05-03
-        end : 2018-05-06
-        experience : company name, title
-    skills : 
-      - skill : HTML5 & CSS
-        value : 85  # Percent value
-        
+    description : Welcome to my portfolio!
+
   # Icons
   icons :
     email:  # Full email address, e.g. "sample@google.com"
@@ -32,13 +25,6 @@ theme_settings :
     youtube:
     facebook:
     instagram:
-
-  # Disqus
-  disqus_shortname :
-
-# Pagination
-paginate: 5
-paginate_path: "blog/page:num"
 
 # Build Ssttings
 sass:
