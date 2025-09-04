@@ -11,7 +11,7 @@ theme_settings :
   profile :
     image : assets/img/JenniferLuk_Headshot.png
     username : Jennifer Luk
-    description : Welcome to my portfolio!
+    description : Welcome to my portfolio! 👋
 
   # Icons
   icons :
