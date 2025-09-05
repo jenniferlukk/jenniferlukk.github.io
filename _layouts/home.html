@@ -11,7 +11,8 @@ layout: default
     <section id="projects" class="col-md-8">
       {% for project in site.data.projects %}
       <div class="project">
-        <a href="{{ project.url }}">
+        <!-- <a href="{{ project.url }}"> -->
+        <a href="{% if project.pdf %}{{ project.pdf }}{% else %}{{ project.url }}{% endif %}" target="_blank">
           <div class="project-wrap">
             <div class="text-wrap">
               <h3 class="title">{{ project.title }}</h3>
@@ -31,3 +32,23 @@ layout: default
     </section>    
   </div>
 </div>
+
+<section id="projects" class="col-md-8">
+  {% for project in site.data.projects %}
+  <div class="project">
+    <a href="{% if project.pdf %}{{ project.pdf }}{% else %}{{ project.url }}{% endif %}" target="_blank">
+      <div class="project-wrap">
+        <div class="text-wrap">
+          <h3 class="title">{{ project.title }}</h3>
+          <p class="excerpt">{{ project.description }}</p>
+        </div>
+        {% if project.image %}
+        <div class="img-wrap">
+          <img src="{{ project.image }}" alt="{{ project.title }}">
+        </div>
+        {% endif %}
+      </div>
+    </a>
+  </div>
+  {% endfor %}
+</section>
