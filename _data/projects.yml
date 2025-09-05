@@ -1,8 +1,16 @@
-- title: Marketing & Communication
-  description: "Projects that showcase strategic storytelling, creative design, and audience engagement. This includes brand campaigns, content creation, newsletters, social media strategies, and internal/external communications. These projects demonstrate my ability to craft messages that resonate and drive results."
+# - title: Marketing & Communication
+#   description: "Projects that showcase strategic storytelling, creative design, and audience engagement. This includes brand campaigns, content creation, newsletters, social media strategies, and internal/external communications. These projects demonstrate my ability to craft messages that resonate and drive results."
 
-- title: Data & Coding Projects
-  description: Projects that highlight analytical, technical, and programming skills. This includes data analysis, machine learning, software development, web applications, and automation. These projects demonstrate my ability to extract insights, solve problems with technology, and build scalable solutions.
+# - title: Data & Coding Projects
+#   description: "Projects that highlight analytical, technical, and programming skills. This includes data analysis, machine learning, software development, web applications, and automation. These projects demonstrate my ability to extract insights, solve problems with technology, and build scalable solutions."
+
+- title: Acuity Insights Blog SEO Project
+  url: https://acuityinsights.com/blog/?_gl=1*11tb43l*_up*MQ..*_ga*NTY2MTY5OTMwLjE3NTcwODc1NTg.*_ga_P5E6QCQ5HF*czE3NTcwODc1NTckbzEkZzAkdDE3NTcwODc1NTckajYwJGwwJGgxMDE0MjkzNTE4*_ga_HBL6W62E6T*czE3NTcwODc1NTckbzEkZzAkdDE3NTcwODc1NTckajYwJGwwJGgyMDMyOTQ3NDAx
+  description: "Led a large-scale SEO optimization initiative by updating and reformatting 150+ blog titles and meta descriptions in WordPress. Used Google Trends and competitor analysis to identify high-performing keywords, then applied SEO best practices to increase click-through rates, boost search rankings, and drive sustained organic traffic growth."
+
+- title: Acuity Insights Holistic Success Show Podcast SEO Project
+  url: https://www.youtube.com/@HolisticSuccessShow/videos
+  description: "Executed SEO optimization for 74 podcast videos in YouTube Studio by updating titles, descriptions, and metadata. Used Google Analytics and keyword research tools to track performance, align content with audience search intent, and improve discoverability, engagement, and organic growth."
 
 - title: McMaster Made at Mac Reel Series - 1
   url: https://www.instagram.com/mcmasteru/reel/DHbuyd4OPOU/ 
